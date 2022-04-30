@@ -27,6 +27,10 @@
   position: relative;
   /* top:-200px; */
 }
+
+#gifContainer {
+  width: 50%;
+}
 @media (max-width: 1200px) {
   .RoadMapContainer{
    
