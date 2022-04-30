@@ -378,7 +378,7 @@
   .dFlexGlicht {
     left: -2%;
   }
-  
+
   .dFlexGlicht p{
     min-width: 200px;
     -webkit-transform: translate(0,-50%);
@@ -386,6 +386,11 @@
     transform: translate(0,-50%);
   }
 
+  .titHedaderPrincipal {
+    position: absolute;
+    width: 100% !important;
+    top: 30%;
+  } 
   
 	
 }
