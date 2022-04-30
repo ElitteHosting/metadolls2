@@ -24,16 +24,8 @@
     position:relative;
   }
 
-#gifContainer{
 
-  width: 50%;
-}
-  @media (max-width: 1200px){
-    .videoTag{
-        display: none;
-    }
-    
-  }
+  
   #bgVideo {
     flex: 1;
     background-color: rgb(122, 22, 22);
@@ -67,6 +59,10 @@
   }
 
 /*fix video*/
+#gifContainer{
+  width: 50%;
+}
+
 .videoTag{
   top: 70px !important;
 }
@@ -76,6 +72,12 @@
   display: block;
 }
 
+@media (max-width: 1200px){
+  .videoTag{
+      display: none;
+  }
+  
+}
 
 @media only screen and (max-width : 767px){
 	
