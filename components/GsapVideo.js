@@ -12,33 +12,33 @@ let videoCurrentTime
   const [state, setState] = useState(0)
   const IntroVideoRef = useRef(null);
   const vidRef = useRef(null);
-  
+  /*
   const handlePlayVideo = () => {
     vidRef.current.play();
   }
   const handlePauseVideo = () => {
     vidRef.current.pause()
-  }
+  }*/
 
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
-  useEffect(() => {
+ /* useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     vidRef.current.currentTime = 0;
 
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
-      /* scrub: true, */
+      /* scrub: true,  
       pinSpacing: false,
       pin: IntroVideoRef.current,
       start: "350px -50px",
       end:  "2000px",
-      /* markers: true, */
-      /* ease: "power2", */
+      /* markers: true,  
+      /* ease: "power2",  
       onEnter:function (self) {
         if(size.width>1200){
         gsap.to(vidRef.current, { display: "block" });
@@ -46,30 +46,30 @@ let videoCurrentTime
       },
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
-       /*  console.log(self.progress) */
+       /*  console.log(self.progress)  
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
           videoCurrentTime = (videoDuration * scrollPos );
           /* if(videoCurrentTime>=5.7){
              return videoCurrentTime=5.4
-          } */
+          }  
           if (videoCurrentTime) {
            /*  console.log('time video')
-            console.log(videoCurrentTime) */
-            vidRef.current.currentTime = videoCurrentTime  * 0.998 ;/* *(0.95) */
+            console.log(videoCurrentTime)  
+            vidRef.current.currentTime = videoCurrentTime  * 0.998 ;/* *(0.95) 
           }
         }
     
       },
       onLeave: function (self){
-       /*  gsap.to(vidRef.current, { display: "none" }); */
+       /*  gsap.to(vidRef.current, { display: "none" });  
       }
 
       
     
     });
-  }, [IntroVideoRef, vidRef]);
+  }, [IntroVideoRef, vidRef]);*/
  
     return(
     
