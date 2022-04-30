@@ -126,20 +126,7 @@
 
 
 
-@media only screen and (max-width : 767px){
-	
-    .titHedaderPrincipal {
-      position: absolute;
-      width: 100% !important;
-      top: 30%;
-    } 
-    
-    .titHedaderPrincipal h1 {
-        font-size: 25px;
-        line-height: 30px;
-    }  
 
-}
 
 /*edward*/
 
@@ -204,27 +191,42 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
 
 
 /* For mobile devices */
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width : 767px){
+	
+    .titHedaderPrincipal {
+      position: absolute;
+      width: 100% !important;
+      top: 30%;
+    } 
+    
+    .titHedaderPrincipal h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }  
+
     .bgimg {
-      /* The file size of this background image is 93% smaller
-       * to improve page load speed on mobile internet connections */
-       background-image: url("../public/Metadoll-005-min.png") ;
+        /* The file size of this background image is 93% smaller
+         * to improve page load speed on mobile internet connections */
+         background-image: url("../public/Metadoll-005-min.png") ;
     }
-
-   
-
+  
+     
+  
     .caption{
-        position: absolute;
-        right: 0px;
-        top:60%;
-        width: 100%;
-        text-align: center;
-        color:#000;
-       
-      
+          position: absolute;
+          right: 0px;
+          top:60%;
+          width: 100%;
+          text-align: center;
+          color:#000;
+         
         
+          
     }
-      }
+
+}
+ 
 
 
       
