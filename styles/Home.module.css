@@ -353,7 +353,24 @@
 }
 
 
+@media only screen and (max-width : 979px){
+
+}
+
+@media only screen and (max-width : 767px){
+	
+  .dFlex{
+    display: block;
+  }
+  
+  .dFlexImg{
+    display: block;
+  }
+	
+}
+
 /*edward*/
+
 
 @media (min-width: 1160px){
   .bigContainer{
@@ -368,6 +385,8 @@
   
   display: none;
 }
+
+
 @media (max-width: 700px){
   .videoMobile{
       display: block;
