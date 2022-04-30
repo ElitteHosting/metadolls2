@@ -543,7 +543,7 @@ export default function Prelauch({ posts }) {
 
     <div className={styles.imgIT} data-aos="fade-left">
     
-      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./toBeRealeased.jpg"}  className={styles.imgBloques}/>
     
     </div>
   </div>
