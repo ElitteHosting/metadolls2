@@ -604,7 +604,7 @@ export default function Prelauch({ posts }) {
             <RoadMap />
 
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-              <img src={"./metavid.gif"}  className={styles.imgGif} data-aos="fade-up"/>
+              <img src={"./metavid.gif"}  className={styles.imgGifMobile} data-aos="fade-up"/>
             </div>
 
 
