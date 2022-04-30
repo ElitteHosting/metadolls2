@@ -71,6 +71,7 @@
   overflow: hidden;
   position: sticky;
   top: 1%;
+  height: 500px;
 }
 
 @media (max-width: 1200px){
