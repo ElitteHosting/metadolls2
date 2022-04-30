@@ -24,7 +24,10 @@
     position:relative;
   }
 
+#gifContainer{
 
+  width: 50%;
+}
   @media (max-width: 1200px){
     .videoTag{
         display: none;
