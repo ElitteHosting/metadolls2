@@ -70,7 +70,7 @@ export default function Prelauch({ posts }) {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
     });
   }, []);
 
