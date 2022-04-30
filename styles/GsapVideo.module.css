@@ -68,10 +68,9 @@
 }
 
 .imgGif{
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 50%;
+  overflow: hidden;
+  position: sticky;
+  top: 1%;
 }
 
 @media (max-width: 1200px){
