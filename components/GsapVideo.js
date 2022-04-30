@@ -75,7 +75,7 @@ let videoCurrentTime
     
         <div   /* id="background-container" className={styles.backgroundContainer} */>
     <div ref={IntroVideoRef}  id="video-container" className={styles.videoContainer}>
-      <video  data-aos="fade-up"   ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" className={styles.videoTag}></video>
+      
       <img src={"./metavid.gif"}  className={styles.imgGif} data-aos="fade-up"/>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
