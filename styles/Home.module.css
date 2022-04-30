@@ -366,6 +366,14 @@
   .dFlexImg{
     display: block;
   }
+
+  .imgIT{
+    width: 100%;
+    padding: 30px 10px;
+  }
+  .textoIT{
+    width: 100%;
+  }
 	
 }
 
