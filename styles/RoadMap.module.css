@@ -1,3 +1,9 @@
+
+.roadMapFirst{
+  width: 50%;
+}
+
+
 @media (max-width: 1200px){
     .metavid{
         display: none;
