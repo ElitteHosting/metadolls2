@@ -73,7 +73,7 @@ let videoCurrentTime
  
     return(
     
-  <div id="gifContainer">
+  <div id="gifContainer" className={styles.gifContainer}>
     <div ref={IntroVideoRef}  id="video-container" className={styles.videoContainer}>
       
       <img src={"./metavid.gif"}  className={styles.imgGif} data-aos="fade-up"/>
