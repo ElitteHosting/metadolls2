@@ -126,8 +126,6 @@
 
 
 
-/*edward*/
-
 @media only screen and (max-width : 767px){
 	
     .titHedaderPrincipal {
@@ -140,8 +138,10 @@
         font-size: 25px;
         line-height: 30px;
     }  
-    
+
 }
+
+/*edward*/
 
 @media screen and (min-width:500px) and (max-width:1400px) and (min-height:500px) 
 and (max-height:700px){
@@ -176,9 +176,9 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
         color: white;
         text-align: center;
     } */
-.caption{
+/*.caption{
 
-}
+}*/
     
 .caption .border{
     background-color: #111;
