@@ -386,11 +386,9 @@
     transform: translate(0,-50%);
   }
 
-  .titHedaderPrincipal {
-    position: absolute;
-    width: 100% !important;
-    top: 30%;
-  } 
+  .dFlexImg img {
+    margin-bottom: 15px;
+  }
   
 	
 }
