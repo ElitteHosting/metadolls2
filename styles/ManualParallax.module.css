@@ -112,7 +112,7 @@
 /*edward*/
 .titHedaderPrincipal{
     position: absolute;
-    width: 100%;
+    width: 100% !important;
     top: 30%; 
 }
 
@@ -122,7 +122,25 @@
     line-height: 60px;
     text-shadow: 1px 2px 1px #000000;
 }
+
+
+
+
 /*edward*/
+
+@media only screen and (max-width : 767px){
+	
+    .titHedaderPrincipal {
+      position: absolute;
+      width: 100% !important;
+      top: 30%;
+    } 
+    
+    .titHedaderPrincipal h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }  
+}
 
 @media screen and (min-width:500px) and (max-width:1400px) and (min-height:500px) 
 and (max-height:700px){
