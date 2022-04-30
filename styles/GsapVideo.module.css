@@ -85,6 +85,9 @@
 	.imgGif{
     display: none;
   }
+  .gifContainer{
+    display: none;
+  }
 
 
 }
