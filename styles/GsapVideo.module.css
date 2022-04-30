@@ -67,4 +67,9 @@
 .videoTag{
   top: 70px !important;
 }
+
+.imgGif{
+  position: relative;
+}
+
 /*fix video*/
